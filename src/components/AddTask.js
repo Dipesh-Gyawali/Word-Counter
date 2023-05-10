@@ -21,6 +21,7 @@ export const AddTask = () => {
             <br/>
             <button>Character Length {word.length}</button>
             <button>Number of words: {countWords(word)}</button>
+            <hr/>
         </div>
     )
     }

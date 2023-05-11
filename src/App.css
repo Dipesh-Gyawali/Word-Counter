@@ -1,5 +1,5 @@
 header {
-  background-color: #333;
+  background-color: #2C3A47;
   color: #fff;
   padding: 10px;
   display: flex;
@@ -80,4 +80,24 @@ button:focus {
   padding: 3px;
   background-color: lightgray;
 }
+
+footer {
+  background-color: #2C3A47;
+  color: #fff;
+  height: 45px;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 5px;
+}
+
+.footer-content {
+  font-size: 15px;
+}
+
+
 

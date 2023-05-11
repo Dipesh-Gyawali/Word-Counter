@@ -6,8 +6,8 @@ export const Header = () => {
       <header>
         <nav>
           <ul>
-            <li><NavLink to="/" end>Home</NavLink></li>
-            <li><NavLink to="/jokes">Jokes</NavLink></li>
+            <li><NavLink to="/" activeClassName="active" end>Home</NavLink></li>
+            <li><NavLink to="/jokes" activeClassName="active">Jokes</NavLink></li>
           </ul>
         </nav>
       </header>

@@ -23,7 +23,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  text-decoration: underline;
+  color: red;
 }
 
  .addtask {
@@ -97,6 +97,22 @@ footer {
 
 .footer-content {
   font-size: 15px;
+}
+
+section{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.active{
+  background-color: gray;
+  border-radius: 5px;
+  padding: 1px;
 }
 
 

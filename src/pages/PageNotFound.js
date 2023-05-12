@@ -5,7 +5,7 @@ export const PageNotFound = () => {
   return (
     <div className="pagenotfound">
       <p style={{fontSize:"25px"}}>404 Page Not Found</p>
-      <img src={PageNotFoundImage} />
+      <img src={PageNotFoundImage} alt="Page Not Found" />
     
       <Link to="/">
         <button>Go to homepage</button>

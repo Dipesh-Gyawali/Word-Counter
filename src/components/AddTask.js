@@ -4,7 +4,7 @@ export const AddTask = () => {
     const [word,setWord] = useState("");
 
     const handleClear = () => {
-        setWord(" ");
+        setWord("");
     }
     
     const countWords = (text) => {
@@ -29,4 +29,4 @@ export const AddTask = () => {
             </div>
         </div>
     )
-    }
+}
